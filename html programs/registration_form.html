@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>registration form </title>
+    <style>
+        .container {
+            padding: 40px;
+            background-color: lightblue;
+        }
+
+        .center {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container1 {
+            padding: 9px;
+            border: none;
+            font-size: large;
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=email],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            font-size: large;
+        }
+
+        .register {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            width: 103%;
+        }
+    </style>
+</head>
+<div class="container">
+    <div class="center">
+        <h1 align="center">Student Registration Form</h1><br>
+        <form>
+            <label for="firstname">FIRST NAME</label><br>
+            <input type="text" name="txt"><br><br>
+
+            <label for="lastname">LAST NAME</label><br>
+            <input type="text" name="txt1"><br><br>
+
+            <div class="container1">
+                <label for="gender">GENDER</label><br><br>
+                <input type="radio" name="rb">MALE
+                <input type="radio" name="rb">FEMALE
+                <input type="radio" name="rb">OTHER<br><br>
+            </div>
+
+            <div class="container1">
+                <label for="branch">BRANCH</label><br><br>
+                <input type="radio" name="rb1">EEE
+                <input type="radio" name="rb1">CSE
+                <input type="radio" name="rb1">ISE<br><br>
+            </div>
+            
+            <label for="address">ADDRESS</label><br>
+            <textarea rows="3" cols="60"></textarea><br><br>
+
+
+            <label for="email">EMAIL</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label for="pwd">PASSWORD</label><br>
+            <input type="password" name="pwd" minlength="8"><br><br>
+
+            <label for="confirm_pwd"> CONFIRM PASSWORD</label><br>
+            <input type="password" name="pwd1" minlength="8"><br><br>
+
+            <button type="submit" class="register">REGISTER</button>
+
+        </form>
+    </div>
+</div>
+
+</html>

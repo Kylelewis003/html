@@ -2,14 +2,10 @@
 
 <html>
 
-<head>
-    <title>USN</title>
-</head>
-
 <script type="text/javascript">
     function check(usn, sem) {
-        var p1 = /[1-4][A-Z][A-Z]\d{2}[A-Z][A-Z]\d{3}$/
-        var p2 = /^[1-8]$/
+        var p1 = /[1-4][A-Z][A-Z]\d{2}[A-Z][A-Z]\d{3}$/;
+        var p2 = /^[1-8]$/;
         if (!usn.value.match(p1) || usn.value.length == 0) {
             if (!sem.value.match(p2) || sem.value.length == 0) {
                 alert("USN and Semester are both invalid");
