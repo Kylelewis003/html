@@ -1,34 +1,25 @@
-.container {
-    padding: 40px;
-    background-color: lightblue;
-}
-
-.center {
+.container{ 
+    padding: 10px ;
     display: grid;
     justify-content: center;
     align-items: center;
-}
-
-.container1 {
-    padding: 9px;
-    border: none;
+    background-color: bisque;
     font-size: large;
 }
 
-input[type=text],
-input[type=password],
-input[type=email],
-textarea {
+input[type = email],
+input[type = password]
+{
     width: 100%;
     padding: 10px;
     border: none;
     font-size: large;
 }
 
-.register {
+.submit{
     background-color: #4CAF50;
     color: white;
     padding:15px;
     border: none;
-    width: 103%;
+    width: 100%;
 }

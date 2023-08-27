@@ -3,51 +3,26 @@
 
 <head>
     <title>login form</title>
-    <style>
-        h1 {
-            text-align: center;
-            font-weight: lighter;
-        }
-
-        form {
-            padding: 9px;
-            margin: 25px 50px 75px 100px;
-            border: thick solid black;
-            font-size: 20px;
-        }
-
-        .email {
-            padding: 10px;
-        }
-
-        .pwd {
-            padding: 10px;
-        }
-
-        .submit {
-            padding: 10px;
-        }
-    </style>
+    <link rel = "stylesheet" href = "loginform.css">
 </head>
 
 <body>
-    <h1>Login Form </h1>
+    <div class = "container">
+        <h1>Login Form </h1>
+        <form>
+            <div class="email">
+                <label>EMAIL </label><br>
+                <input type="email" placeholder="Enter Email" name="email"> <br><br>
+            </div>
 
-    <form>
-        <div class="email">
-            <label for="email">Email </label><br>
-            <input type="email" placeholder="Enter Email" id ="email" name="email"> <br><br>
-        </div>
+            <div class="pwd">
+                <label>PASSWORD</label><br>
+                <input type="password" placeholder="Enter Password" name="pwd" minlength="8"><br><br>
+            </div>
 
-        <div class="pwd">
-            <label for="pwd">Password</label><br>
-            <input type="password" id="pwd" placeholder="Enter Password" name="pwd" minlength="8"><br><br>
-        </div>
-
-        <div class="submit">
-            <input type="submit">
-        </div>
-    </form>
+            <button class = "submit" type="submit">SUBMIT</button><br><br><br>
+        </form>
+    </div>
 </body>
 
 </html>
