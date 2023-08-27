@@ -1,0 +1,35 @@
+.container1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #364866;
+}
+
+.container2 {
+
+    border: solid #618685 70px;
+    width: 300px;
+    height: 300px;
+    padding: 80px;
+}
+
+.container3 {
+
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #36486b;
+    color: white;
+    margin-bottom: 40px;
+    padding: 1em;
+
+}
+
+.container4 {
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #618685;
+    color: white;
+    padding: 1em;
+}
